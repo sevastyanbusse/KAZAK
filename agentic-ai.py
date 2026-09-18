@@ -9,12 +9,13 @@ from langchain.prompts import ChatPromptTemplate, MessagesPlaceholder
 load_dotenv()
 
 #creates the Ollama model
-def create_model: 
 
-model = OllamaLLM (
-  model="llama3.1",
-  temperature=0.7,
-  num_predict=256
-)
+def create_model():
+  return OllamaLLM(
+    model="llama3.1" 
+    temperature=0.7,
+    num_predict=256,
+) 
 
-  
+# initializing the model
+model = create_model()
