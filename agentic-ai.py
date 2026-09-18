@@ -1,5 +1,4 @@
 import os
-
 from dotenv import load_dotenv
 from langchain.agents import create_openai_functions_agent, AgentExecutor
 from langchain.tools import DuckDuckGoSearchRun
@@ -10,6 +9,7 @@ from langchain.prompts import ChatPromptTemplate, MessagesPlaceholder
 load_dotenv()
 
 #creates the Ollama model
+def create_model: 
 
 model = OllamaLLM (
   model="llama3.1",
