@@ -1,6 +1,8 @@
+KAZAK draws historical inspiration from the Ukrainian Cossacks. Just as the Cossacks were warriors of their time, in 2026, the new battlefield is Cyberspace. As the Cossacks protected the Steppes, this AI seeks to protect systems.
+
 # KAZAK
 
-Kazak is a basic agentic AI model that is specialized in penetration testing.
+KAZAK is an agentic AI model that is specialized in penetration testing.
 
 # Terminal-based
 
